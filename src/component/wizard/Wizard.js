@@ -61,7 +61,7 @@ class Wizard extends Component{
                 <input placeholder="state" onChange={(e)=>this.changeHandler4(e.target.value)}/>
                 <input placeholder="zipcode" onChange={(e)=>this.changeHandler5(e.target.value)}/>
                 <button onClick={()=>this.addHouse()}>Where's Rachel!?!?</button>
-                <Link to='/houses/wizard2'><button>Proceed</button></Link>
+                <Link to='/houses/wizard/two'><button>Proceed</button></Link>
             </div>
         )
     }

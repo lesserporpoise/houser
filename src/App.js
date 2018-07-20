@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
 import './App.css';
 import Header from './component/header/Header'
 import route from './route'
@@ -19,9 +19,9 @@ class App extends Component {
     );
   }
 }
-function mapStateToProps(state){
-  return state;
-}
+// function mapStateToProps(state){
+//   return state;
+// }
 
 // export default connect(mapStateToProps,{oldHouse,newHouse})(App);
 export default App;
